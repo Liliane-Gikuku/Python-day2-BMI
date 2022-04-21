@@ -1,0 +1,10 @@
+first=input("Enter your name ")
+greeting=("Welcome "+first +"!")
+print(greeting)
+weight=input("Enter your weight in kilograms: ")
+height=input("Enter your height in metres ")
+bmi=int(weight) /float(height) ** 2
+bmi_as_int= int(bmi)
+print(bmi_as_int)
+print("Your BMI is "+str(bmi) + " kgm-2")
+print("The normal range is 18.5 - 24.9 kgm-2")
